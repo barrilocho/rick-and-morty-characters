@@ -1,0 +1,8 @@
+.characters {
+  justify-content: center;
+  margin: 10px 30px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 220px);
+  grid-gap: 10px;
+}

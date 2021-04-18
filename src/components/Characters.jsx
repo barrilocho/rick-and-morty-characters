@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import Card from './Card';
+import './../stylesheets/characters.css'
 const Characters = () => {
   const [characters, setCharacters] = useState([]);
 
@@ -10,12 +11,13 @@ const Characters = () => {
   }, []);
 
   return (
-    <div className="Characters">
+    <div className="characters">
       {characters.map(character => (
-        <Card name={character.name}></Card>
+        <Card character={character}></Card>
       ))}
     </div>
   );
+
 }
 
 export default Characters;

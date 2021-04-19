@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+
+.dark {
+ background-color: #282c34;
+
+}
+.dark h1,h2,h3,h4,h5,h6,p,span {
+  color: aliceblue;
+}
+
+.light {
+  background-color: white;
+}
+.light h1,h2,h3,h4,h5,h6,p,span {
+  color: black;
+}
+
+.title {
+  margin-top: 0;
+  padding-top: 20px;
+}

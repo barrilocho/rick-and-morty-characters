@@ -1,9 +1,26 @@
 .card {
-  width: 200px;
-  background-color: beige;
+  width: auto;
+  width: calc(100% - 20px);
+  background-color: rgb(245, 238, 220);
   height: auto;
+  height: calc(100% - 20px);
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+  position: relative;
+  cursor: pointer;
   padding: 10px;
+}
+.card:hover {
+  background-color: rgb(219, 202, 157);
 }
 .card .card-image {
   width: 100%;
+}
+
+.card .id {
+  position: absolute;
+  text-align: end;
+  font-weight: 600;
+  margin-bottom: 5px;
+  bottom: 0;
+  right: 10px;
 }
